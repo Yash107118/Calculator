@@ -1,0 +1,65 @@
+*,
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.bgimage {
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: auto;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 0;
+    filter: blur(3px);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.display {
+    width: 30%;
+    height: 69px;
+    border: 2px solid black;
+    z-index: 1;
+    background-color: #2e387e;
+    font-family: cursive;
+}
+
+.display1,
+.display2 {
+    text-align: right;
+    font-size: 25px;
+    color: white;
+}
+
+.numbers {
+    margin-top: 20px;
+    z-index: 1;
+    width: 30%;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+.button {
+    width: 23.9%;
+    height: 60px;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: #2e387e;
+    margin: 2px 0px;
+    color: white;
+    font-family: cursive;
+}

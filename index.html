@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../Images/calculator.png">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="./Images/back_img.png" alt="image" class="bgimage">
+        <div class="display">
+            <div class="display1" id="display1"></div>
+            <div class="display2" id="display2"></div>
+        </div>
+        <div class="numbers">
+            <button class="button" id="button20" onclick="clearCalc()">AC</button>
+            <button class="button" id="button2" onclick="dlt(); calculate();">Del</button>
+            <button class="button" id="button3" onclick="checkop(this); percentage(); " value="%">%</button>
+            <button class="button" id="button4" onclick="checkop(this); calculate(); " value="/">÷</button>
+            <button class="button" id="button5" onclick="calculate() " value="7">7</button>
+            <button class="button" id="button6" onclick="calculate() " value="8">8</button>
+            <button class="button" id="button7" onclick="calculate() " value="9">9</button>
+            <button class="button" id="button8" onclick="checkop(this); calculate(); " value="*">x</button>
+            <button class="button" id="button9" onclick="calculate() " value="4">4</button>
+            <button class="button" id="button10" onclick="calculate() " value="5">5</button>
+            <button class="button" id="button11" onclick="calculate() " value="6">6</button>
+            <button class="button" id="button12" onclick="checkop(this); calculate(); " value="+">+</button>
+            <button class="button" id="button13" onclick="calculate() " value="1">1</button>
+            <button class="button" id="button14" onclick="calculate() " value="2">2</button>
+            <button class="button" id="button15" onclick="calculate() " value="3">3</button>
+            <button class="button" id="button16" onclick="checkop(this); calculate(); " value="-">-</button>
+            <button class="button" id="button17" onclick="calculate() " value="0">0</button>
+            <button class="button" id="button18" onclick="calculate() " value=".">.</button>
+            <button class="button" id="button19" onclick="calculate() " value="^">^</button>
+            <button class="button" id="button20" onclick="calculate() ">=</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
